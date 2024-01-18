@@ -1,19 +1,9 @@
-print("Hello World")
+#  1, 2, 3, 4, 5
 
-def greet():
-    print("Hello this is function!")
-    
+a1 = 1
+a2 = 2
+d = a2-a1
+n = 5
 
-
-class Student():
-    def __init__(self):
-        print("this is init function in python ")
-        print("Hi this is student!")
-
-    def tell(self):
-        print("i am telling ")
-        return "i am telling!"
-    
-    def write(self):
-        print("i am writting !")
-        return "i am writting !"
+T5 = a1+(n-1)*d
+print(T5)

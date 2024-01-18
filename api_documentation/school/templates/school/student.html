@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>studentlist</title>
+</head>
+<body>
+  <h2>Click the name to get the detail of it</h2>
+  <h2>we can used custom context beacouse it is inheriting context class</h2>
+  {% for student in student_list %}
+
+    <li><a href="{% url 'student' student.id %}">{{student.name }}</a></li>
+
+  {% endfor %}
+
+</body>
+</html>
